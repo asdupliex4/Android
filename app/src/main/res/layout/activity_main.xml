@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.aman.getname.MainActivity5"
+    android:background="@drawable/images">
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="136dp"
+        android:layout_height="20dp"
+        android:text="Mobile"
+        android:gravity="center"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Mobile No."
+        android:layout_alignBottom="@+id/e4"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="13dp" />
+
+    <EditText
+        android:layout_width="199dp"
+        android:layout_height="38dp"
+        tools:layout_editor_absoluteY="134dp"
+        tools:layout_editor_absoluteX="169dp"
+        android:id="@+id/e4"
+        android:layout_below="@+id/textView11"
+        android:layout_alignStart="@+id/textView11"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="78dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:layout_alignParentBottom="true"
+        android:layout_alignEnd="@+id/e4"
+        android:layout_marginEnd="37dp"
+        android:layout_marginBottom="199dp"
+        />
+
+</RelativeLayout>
